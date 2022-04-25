@@ -2,7 +2,7 @@
 include_once "includes/head.php";
 include_once "includes/header.php";
 ?>
-
+<div class="row">
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
@@ -16,13 +16,13 @@ include_once "includes/header.php";
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="imagens/coisalinda.jpg" alt="Los Angeles" class="d-block w-100">
+      <img src="imagens/instrumentos.jpg" alt="Los Angeles" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="imagens/coisalinda2.jpg" alt="Chicago" class="d-block w-100">
+      <img src="imagens/instrumentos2.jpg" alt="Chicago" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="imagens/coisalinda3.jpg" alt="New York" class="d-block w-100">
+      <img src="imagens/instrumentos3.jpg" alt="New York" class="d-block w-100">
     </div>
   </div>
 
@@ -34,29 +34,31 @@ include_once "includes/header.php";
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
+</div>
 
 <br>
 <br>
-
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+</div>
+<div class="container">
+      
+<div class="row">
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: miniatura" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
-
+           <img src="imagens/guitarra.jpg" class="card-img" width="100%" height="225">
             <div class="card-body">
               <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instrumento</font></font></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button>
                 </div>
-                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Preço</font></font></small>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">R$899,99</font></font></small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: miniatura" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
+          <img src="imagens/guitarra2.jpg" class="card-img" width="100%" height="225">
 
             <div class="card-body">
               <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instrumento</font></font></p>
@@ -64,14 +66,14 @@ include_once "includes/header.php";
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button>
                 </div>
-                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Preço</font></font></small>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">R$689,99</font></font></small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: miniatura" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">صورة مصغرة</text></svg>
+          <img src="imagens/baixo.jpg" class="card-img" width="100%" height="225">
 
             <div class="card-body">
               <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instrumento</font></font></p>
@@ -79,7 +81,7 @@ include_once "includes/header.php";
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button>
                 </div>
-                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Preço</font></font></small>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">R$459,99</font></font></small>
               </div>
             </div>
           </div>

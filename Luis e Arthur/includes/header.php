@@ -7,10 +7,9 @@
 
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">OnTrack</a>
-  <a href="#Alguns">Albuns</a>
-  <a href="#Instrumentos">Instrumentos</a>
+  <a href="Instrumentos.php">Instrumentos</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+  <i class="fa fa-bars"></i>
   </a>
 </div>
 
